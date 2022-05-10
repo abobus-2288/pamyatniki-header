@@ -3,16 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="header.css">
+    <script src="header.js" async></script>
     <title>Header</title>
 </head>
 <body>
-<header class="header">
-    <button onclick="alert('Click')" class="header__menu-button">
-        <img class="header__menu-img" src="img/Menu.png" alt="Menu">
-    </button>
-    <a href="#" class="header__logo-a">
-        <img class="header__logo-img" src="img/Logo.png" alt="Logo">
+<header>
+    <button onclick="test()" class="menu menu_closed"></button>
+    <a href="#" class="logo">
+        <img class="logo__img" src="img/Logo.png" alt="Logo">
+    </a>
+    <a class="donate-button header-icon" href="#">
+        <div class="donate-button__text">
+            Пожертвовать
+        </div>
+    </a>
+    <a href="#" class="account header-icon">
+        <img class="account__img" src="img/coolicon.png" alt="account"/>
+    </a>
+    <a href="#" class="search header-icon">
+        <img class="search__img" src="img/Search.png" alt="Search">
     </a>
 </header>
+<main>
+    <div class="categories">
+        <h3>Разделы</h3>
+    </div>
+    <div class="countries">
+        <ul>
+            <li><h3>Страны</h3></li>
+            <li><h3>Города</h3></li>
+            <li><h3>Достопримечательности</h3></li>
+        </ul>
+    </div>
+</main>
 </body>
 </html>
