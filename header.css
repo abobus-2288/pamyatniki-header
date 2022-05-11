@@ -8,14 +8,18 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    position: absolute;
+    width: 100%;
 }
 
-header {
+.header {
     background-color: black;
     height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    /*position: absolute;*/
 }
 
 .menu {
@@ -34,6 +38,7 @@ header {
     background-image: url("img/menu-close.png");
     /*width: 27px;*/
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .logo {
@@ -60,12 +65,55 @@ header {
 }
 
 .header-icon {
-    margin: 30px;
+    margin: 20px;
 }
 
 
 /* Нижняя часть */
 
-main {
+.main {
     background-color: rgb(21, 21, 21);
+    border: #505050 1.5px ;
+    position: relative;
+    height: 450px;
+}
+
+.main_closed {
+    display: none;
+}
+
+.main_opened {
+    display: flex;
+}
+
+.categories {
+    margin-left: 20px;
+    margin-left: 20px;
+    border-left: #505050 1.5px;
+}
+
+.categories h3 {
+    color: #8A8A8A;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.categories a {
+    text-decoration: none;
+    color: white;
+}
+
+.categories li {
+    list-style-type: none;
+    margin: 10px 0 10px 0;
+}
+
+.countries li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.countries a.actvie {
+    color: white;
+    text-decoration: underline white;
 }
