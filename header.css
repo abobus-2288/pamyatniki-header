@@ -75,7 +75,7 @@ body {
     border: #505050 1.5px solid;
     border-left: none;
     position: absolute;
-    height: 450px;
+    height: 480px;
     bottom: 450px;
 }
 
@@ -155,5 +155,15 @@ body {
     margin-left: 30px;
     text-decoration: none;
     color: white;
+    font-size: 30px;
+}
+
+.countries__all {
+    margin: 0 35px;
+}
+
+.countries__all a {
+    color: #28783E;
+    font-weight: 500;
     font-size: 30px;
 }
