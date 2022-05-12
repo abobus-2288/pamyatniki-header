@@ -73,7 +73,8 @@ body {
 
 .main {
     background-color: rgb(21, 21, 21);
-    border: #505050 1.5px ;
+    border: #505050 1.5px solid;
+    border-left: none;
     position: relative;
     height: 450px;
 }
@@ -88,19 +89,23 @@ body {
 
 .categories {
     margin-left: 20px;
-    margin-left: 20px;
-    border-left: #505050 1.5px;
+    padding-right: 50px;
+    border-left: #505050 1.5px ;
 }
 
 .categories h3 {
     color: #8A8A8A;
     font-size: 30px;
     font-weight: normal;
+    margin-bottom: 57px;
+    margin-top: 30px;
 }
 
 .categories a {
     text-decoration: none;
     color: white;
+    font-weight: 400;
+    font-size: 30px;
 }
 
 .categories li {
@@ -108,12 +113,41 @@ body {
     margin: 10px 0 10px 0;
 }
 
+.countries {
+    width: 100%;
+    border-left: #505050 1px solid;
+}
+
 .countries li {
     list-style-type: none;
     display: inline-block;
+    margin: 30px;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(138, 138, 138);
 }
 
 .countries a.actvie {
     color: white;
     text-decoration: underline white;
+}
+
+.countries__rows {
+    display: flex;
+}
+
+.countries__row {
+    width: 33%;
+    margin-left: 35px;
+}
+
+.countries__country {
+    margin: 24px;
+}
+
+.countries__country a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
 }
