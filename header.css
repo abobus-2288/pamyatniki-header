@@ -90,7 +90,7 @@ body {
 
     transition-duration: 1s;
     transition: bottom 1s;
-    transform: translateY(900px);
+    transform: translateY(890px);
 }
 
 .categories {
