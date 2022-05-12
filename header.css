@@ -84,6 +84,8 @@ body {
 }
 
 .main_opened {
+    width: 100%;
+    position: absolute;
     display: flex;
 }
 
