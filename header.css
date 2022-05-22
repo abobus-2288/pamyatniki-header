@@ -75,7 +75,7 @@ body {
     border: #505050 1.5px solid;
     border-left: none;
     position: absolute;
-    height: 480px;
+    height: 404px;
 }
 
 .main_closed {
@@ -160,4 +160,25 @@ body {
     color: #28783E;
     font-weight: 500;
     font-size: 26px;
+}
+
+/* Адаптив */
+
+@media(max-width: 1310px) {
+
+    .countries ul li {
+        display: block;
+    }
+
+    .main {
+        height: max-content;
+    }
+
+    .countries__row {
+        width: 100%;
+    }
+
+    .countries__rows {
+        flex-direction: column;
+    }
 }
