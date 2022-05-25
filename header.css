@@ -166,6 +166,10 @@ body {
 
 @media(max-width: 1310px) {
 
+    header {
+        width: 100%;
+    }
+
     .countries ul li {
         display: block;
     }
